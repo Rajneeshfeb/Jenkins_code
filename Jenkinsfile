@@ -6,7 +6,7 @@ node{
 
      stage('deploying stack'){
 
-      sh 'aws ec2 instance'
+      sh 'Cloudformation.yml'
       } 
      
 }
