@@ -6,7 +6,7 @@ node{
 
      stage('deploying stack'){
 
-      sh 'Cloudformation.yml'
+      sh 'ansible-playbook -c Cloudformation.yml'
       } 
      
 }
