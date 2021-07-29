@@ -1,5 +1,5 @@
 Resources:
-  MyInstance:
+  MyJenkins:
     Type: AWS::EC2::Instance
     Properties:
       AvailabilityZone: ap-south-1b 
