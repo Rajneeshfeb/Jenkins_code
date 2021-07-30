@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Submit Stack') {
             steps {
-            sh "aws cloudformation create-stack --stack-name ec2 instance --template-body file://Cloudformation.yml --region 'ap-south-1b'"
+            sh "aws cloudformation create-stack --stack-name EC2Instance --template-body Cloudformation.yml"
               }
              }
             }
