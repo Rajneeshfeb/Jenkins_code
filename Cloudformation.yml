@@ -1,7 +1,9 @@
-Resources:
-  MyJenkins:
-    Type: AWS::EC2::Instance
-    Properties:
-      AvailabilityZone: ap-south-1b 
-      ImageId: ami-00bf4ae5a7909786c
-      InstanceType: t2.micro
+AWSTemplateFormatVersion: "2010-09-09"
+  
+  Resources:
+    EC2Instance:
+      Type: AWS::EC2::Instance
+      Properties:
+        InstanceType: t2.micro
+        ImageId: ami-00bf4ae5a7909786c
+        AvailabilityZone: ap-south-1b
