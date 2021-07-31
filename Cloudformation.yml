@@ -1,8 +1,8 @@
 AWSTemplateFormatVersion: "2010-09-09"
 Resources:
- EC2Instance:
+  EC2Instance:
     Type: AWS::EC2::Instance
     Properties:
-    InstanceType: t2.micro
-    ImageId: ami-00bf4ae5a7909786c
-    AvailabilityZone: ap-south-1b
+        InstanceType: t2.micro
+        ImageId: ami-00bf4ae5a7909786c
+        AvailabilityZone: ap-south-1b
