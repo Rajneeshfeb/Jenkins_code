@@ -1,1 +1,1 @@
-# Jenkins_code
+# EC2 Instance creation using cloudformation on jenkins pipeline
