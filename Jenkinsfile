@@ -1,5 +1,3 @@
-properties([ disableConcurrentBuilds(), pipelineTriggers([githubPush()]) ]) 
-
 pipeline{
     agent any
     stages{
